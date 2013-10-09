@@ -5754,3 +5754,905 @@ ActionController::RoutingError (No route matches [GET] "/stylesheets/style.css")
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 07 10:08:08 -0500 2013
 Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 09 10:47:12 -0500 2013
+Processing by AppPagesController#index as HTML
+  Rendered app_pages/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 62ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at Wed Oct 09 10:47:12 -0500 2013
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/style.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/application.css.css?body=1" for 127.0.0.1 at Wed Oct 09 10:47:12 -0500 2013
+Served asset /application.css.css - 200 OK (69ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Wed Oct 09 10:47:12 -0500 2013
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Wed Oct 09 10:47:12 -0500 2013
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Wed Oct 09 10:47:12 -0500 2013
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at Wed Oct 09 10:47:12 -0500 2013
+Served asset /static_pages.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Wed Oct 09 10:47:12 -0500 2013
+Served asset /application.js - 200 OK (9ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 09 10:49:14 -0500 2013
+Processing by AppPagesController#index as HTML
+  Rendered app_pages/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 47ms (Views: 46.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at Wed Oct 09 10:49:14 -0500 2013
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/style.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 09 10:49:54 -0500 2013
+Processing by AppPagesController#index as HTML
+  Rendered app_pages/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 51ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at Wed Oct 09 10:49:54 -0500 2013
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/style.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 09 10:57:57 -0500 2013
+Processing by AppPagesController#index as HTML
+  Rendered app_pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (68.9ms)
+Completed 200 OK in 78ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at Wed Oct 09 10:57:57 -0500 2013
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/style.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 09 10:59:17 -0500 2013
+Processing by AppPagesController#index as HTML
+  Rendered app_pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at Wed Oct 09 10:59:17 -0500 2013
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/style.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 09 11:02:06 -0500 2013
+Processing by AppPagesController#index as HTML
+  Rendered app_pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (6.7ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::App_Pages):
+    10:     
+    11: 	<ul>
+    12: 		<li>
+    13: 			<%= link_to App_Pages/index %>
+    14: 			
+    15: 			<ul>
+    16: 				<li><a href="">Sub Item 1</a></li>
+  app/views/layouts/_header.html.erb:13:in `_app_views_layouts__header_html_erb__1162467872_2205594260'
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__1381421586_2206026580'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 09 11:02:26 -0500 2013
+Processing by AppPagesController#index as HTML
+  Rendered app_pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at Wed Oct 09 11:02:26 -0500 2013
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/style.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 09 11:03:57 -0500 2013
+Processing by AppPagesController#index as HTML
+  Rendered app_pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionController::RoutingError (No route matches {:controller=>"app_pages"}):
+  app/views/layouts/_header.html.erb:14:in `_app_views_layouts__header_html_erb__1162467872_2203849320'
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__1381421586_2206026580'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 09 11:04:10 -0500 2013
+Processing by AppPagesController#index as HTML
+  Rendered app_pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 500 Internal Server Error in 82ms
+
+ActionController::RoutingError (No route matches {:controller=>"app_pages"}):
+  app/views/layouts/_header.html.erb:14:in `_app_views_layouts__header_html_erb__1162467872_2207768980'
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__1381421586_2206026580'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 09 11:07:22 -0500 2013
+Processing by AppPagesController#index as HTML
+  Rendered app_pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+ERROR: compiling _app_views_layouts__header_html_erb__1162467872_2205620240 RAISED compile error
+/Users/hetzerbr/App137-/app/views/layouts/_header.html.erb:14: syntax error, unexpected tSYMBEG, expecting kDO or '{' or '('
+...( link_to "index", root_path :id => 'App_Pages#index' );@out...
+                              ^
+Function body:           def _app_views_layouts__header_html_erb__1162467872_2205620240(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "layouts/_header";_old_output_buffer = @output_buffer;header = local_assigns[:header];;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<head>
+<div class="center hero-unit">
+	<title>Wysp Application</title>
+	<h1> WYSP Application</h1>
+
+	<nav class="animenu">
+	
+    <input type="checkbox" id="button">
+    <label for="button" onclick>Menu</label>
+    
+	<ul>
+		<li>
+
+			');@output_buffer.append= ( link_to "index", root_path :id => 'App_Pages#index' );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('			<ul>
+				<li><a href="">Sub Item 1</a></li>
+				<li><a href="">Sub Item 2</a></li>
+				<li><a href="">Sub Item 3</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Item 2</a>
+			<ul>
+				<li><a href="">Sub Item 1</a></li>
+				<li><a href="">Sub Item 2</a></li>
+				<li><a href="">Sub Item 3</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Item 3</a>
+			<ul>
+				<li><a href="">Sub Item 1</a></li>
+				<li><a href="">Sub Item 2</a></li>
+				<li><a href="">Sub Item 3</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Item 4</a>
+			<ul>
+				<li><a href="">Sub Item 1</a></li>
+				<li><a href="">Sub Item 2</a></li>
+				<li><a href="">Sub Item 3</a></li>
+			</ul>
+		</li>	
+	</ul>
+</nav>
+
+</div>
+</head>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/hetzerbr/App137-/app/views/layouts/_header.html.erb:52:in `compile'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/template.rb:244:in `compile!'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/template.rb:232:in `synchronize'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/template.rb:232:in `compile!'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/template.rb:144:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/notifications.rb:125:in `instrument'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/template.rb:143:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/partial_renderer.rb:265:in `render_partial'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/partial_renderer.rb:238:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/partial_renderer.rb:237:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+/Users/hetzerbr/App137-/app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__1381421586_2206026580'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/template.rb:145:in `send'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/template.rb:145:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/notifications.rb:125:in `instrument'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/template.rb:143:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:59:in `render_with_layout'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activerecord-3.2.11/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:414:in `_run__1547583052__process_action__1904776093__callbacks'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `send'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:81:in `send'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activerecord-3.2.11/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/abstract_controller/base.rb:121:in `process'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal.rb:246:in `action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/journey-1.0.4/lib/journey/router.rb:68:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activerecord-3.2.11/lib/active_record/query_cache.rb:64:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activerecord-3.2.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `_run__1436925637__call__4__callbacks'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `send'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:81:in `send'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/rack/logger.rb:32:in `call_app'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/rack/logger.rb:16:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/tagged_logging.rb:22:in `tagged'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/rack/logger.rb:16:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/engine.rb:479:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/application.rb:223:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/handler/webrick.rb:13:in `run'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/server.rb:268:in `start'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/commands/server.rb:70:in `start'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/commands.rb:55
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/commands.rb:50:in `tap'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/commands.rb:50
+script/rails:6:in `require'
+script/rails:6
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (compile error
+/Users/hetzerbr/App137-/app/views/layouts/_header.html.erb:14: syntax error, unexpected tSYMBEG, expecting kDO or '{' or '('
+...( link_to "index", root_path :id => 'App_Pages#index' );@out...
+                              ^):
+    11: 	<ul>
+    12: 		<li>
+    13: 
+    14: 			<%= link_to "index", root_path :id => 'App_Pages#index' %>
+    15: 			<ul>
+    16: 				<li><a href="">Sub Item 1</a></li>
+    17: 				<li><a href="">Sub Item 2</a></li>
+  app/views/layouts/_header.html.erb:52:in `compile'
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__1381421586_2206026580'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 09 11:10:05 -0500 2013
+Processing by AppPagesController#index as HTML
+  Rendered app_pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (33.6ms)
+Completed 500 Internal Server Error in 41ms
+
+ActionView::Template::Error (undefined local variable or method `index_path' for #<#<Class:0x10701f7e0>:0x106caf948>):
+    11: 	<ul>
+    12: 		<li>
+    13: 
+    14: 			<%= link_to "index", index_path %>
+    15: 			<ul>
+    16: 				<li><a href="">Sub Item 1</a></li>
+    17: 				<li><a href="">Sub Item 2</a></li>
+  app/views/layouts/_header.html.erb:14:in `_app_views_layouts__header_html_erb__1162467872_2204372640'
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb__1381421586_2206026580'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 09 11:12:33 -0500 2013
+
+SyntaxError (/Users/hetzerbr/App137-/config/routes.rb:2: syntax error, unexpected '>'
+  match '/registration', :to +> 'App_pages#registration'
+                               ^):
+  activesupport (3.2.11) lib/active_support/dependencies.rb:245:in `load'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:245:in `load'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:245:in `load'
+  railties (3.2.11) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (3.2.11) lib/rails/application/routes_reloader.rb:40:in `each'
+  railties (3.2.11) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (3.2.11) lib/rails/application/routes_reloader.rb:16:in `reload!'
+  railties (3.2.11) lib/rails/application/routes_reloader.rb:26:in `updater'
+  activesupport (3.2.11) lib/active_support/file_update_checker.rb:78:in `call'
+  activesupport (3.2.11) lib/active_support/file_update_checker.rb:78:in `execute'
+  activesupport (3.2.11) lib/active_support/file_update_checker.rb:86:in `execute_if_updated'
+  railties (3.2.11) lib/rails/application/routes_reloader.rb:7:in `__send__'
+  railties (3.2.11) lib/rails/application/routes_reloader.rb:7:in `execute_if_updated'
+  railties (3.2.11) lib/rails/application/finisher.rb:68:in `_callback_before_7'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:451:in `_run__785430450__prepare__4__callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:385:in `_run_prepare_callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:74:in `prepare!'
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Wed Oct 09 11:12:57 -0500 2013
+Processing by AppPagesController#index as HTML
+  Rendered app_pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at Wed Oct 09 11:12:57 -0500 2013
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/style.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/index" for 127.0.0.1 at Wed Oct 09 11:12:59 -0500 2013
+Processing by AppPagesController#index as HTML
+  Rendered app_pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at Wed Oct 09 11:12:59 -0500 2013
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/style.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/index" for 127.0.0.1 at Wed Oct 09 11:13:27 -0500 2013
+Processing by AppPagesController#index as HTML
+  Rendered app_pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at Wed Oct 09 11:13:27 -0500 2013
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/style.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/index" for 127.0.0.1 at Wed Oct 09 11:14:03 -0500 2013
+Processing by AppPagesController#index as HTML
+  Rendered app_pages/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 85ms (Views: 84.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at Wed Oct 09 11:14:03 -0500 2013
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/style.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)

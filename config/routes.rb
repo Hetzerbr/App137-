@@ -1,8 +1,10 @@
 WyspApp::Application.routes.draw do
-  get "App_pages/registration"
+  match '/registration', :to => 'App_pages#registration'
 
-  get "App_pages/unknown"
+  match '/unknown', :to => 'App_pages#unknown'
 
+  match '/index', :to => 'App_pages#index'
+   
    root :to => 'App_pages#index'
    
   # The priority is based upon order of creation:

@@ -1,0 +1,11 @@
+<%= semantic_form_for @index do |form| %>
+<%= form.inputs do %>
+<%= form.input :name %>
+<%= form.input :born_on, :start_year => 1997 %>
+<%= form.input :description, :as => :text %>
+<%= form.input :female, :as => :radio, :label => "Gender", :collection => [["Male", false], ["Female", true]] %>
+<% end %>
+<%= form.actions do %>
+<%= form.action :submit, :as => :button %>
+<% end %>
+<% end %>
