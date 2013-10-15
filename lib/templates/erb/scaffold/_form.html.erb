@@ -1,11 +1,13 @@
-<%= semantic_form_for @index do |form| %>
-<%= form.inputs do %>
-<%= form.input :name %>
-<%= form.input :born_on, :start_year => 1997 %>
-<%= form.input :description, :as => :text %>
-<%= form.input :female, :as => :radio, :label => "Gender", :collection => [["Male", false], ["Female", true]] %>
-<% end %>
-<%= form.actions do %>
-<%= form.action :submit, :as => :button %>
-<% end %>
-<% end %>
+<%%= simple_form_for(@<%= singular_table_name %>) do |f| %>
+  <%%= f.error_notification %>
+
+  <div class="form-inputs">
+  <%- attributes.each do |attribute| -%>
+    <%%= f.<%= attribute.reference? ? :association : :input %> :<%= attribute.name %> %>
+  <%- end -%>
+  </div>
+
+  <div class="form-actions">
+    <%%= f.button :submit %>
+  </div>
+<%% end %>

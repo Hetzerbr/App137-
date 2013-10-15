@@ -11,6 +11,7 @@ gem 'activerecord-sqlserver-adapter'
 gem 'ruby-odbc'
 #gem 'tiny_tds'
 gem 'mysql2'
+gem "simple_form"  
 
 group :development, :test do
   gem 'sqlite3','1.3.5'

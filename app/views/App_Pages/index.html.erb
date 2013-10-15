@@ -1,9 +1,12 @@
-<html>
-<head>
-	
-</head>
-<body>
-
-
-</body>
-</html>	
+<%= semantic_form_for @person do |form| %>
+<%= form.inputs do %>
+<%= form.input :first_name %>
+<%= form.input :last_name %>
+<%= form.input :date_of_birth, :start_year => 1997 %>
+<%= form.input :description, :as => :text %>
+<%= form.input :gender, :as => :radio, :label => "Gender", :collection => [["Male", 'M'], ["Female", 'F']] %>
+<% end %>
+<%= form.actions do %>
+<%= form.action :submit, :as => :button %>
+<% end %>
+<% end %>

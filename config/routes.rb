@@ -1,4 +1,6 @@
 WyspApp::Application.routes.draw do
+  resources :people
+
   match '/registration', :to => 'App_pages#registration'
 
   match '/unknown', :to => 'App_pages#unknown'
