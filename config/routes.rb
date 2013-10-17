@@ -1,13 +1,9 @@
 WyspApp::Application.routes.draw do
   resources :people
 
-  match '/registration', :to => 'App_pages#registration'
-
-  match '/unknown', :to => 'App_pages#unknown'
-
-  match '/index', :to => 'App_pages#index'
+  match '/index', :to => 'Person#index'
    
-   root :to => 'App_pages#index'
+   root :to => 'Person#index'
    
   # The priority is based upon order of creation:
   # first created -> highest priority.

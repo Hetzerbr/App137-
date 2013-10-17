@@ -1,0 +1,25 @@
+<%= semantic_form_for @person do |form| %>
+<%= form.inputs do %>
+<%= form.input :first_name %>
+<%= form.input :last_name %>
+<%= form.input :middle_init %>
+<%= form.input :date_of_birth, :start_year => 1997 %>
+<%= form.input :gender, :as => :check_boxes, :label => "Gender", :collection => [[" Male", 'M'], [" Female", 'F']] %>
+<%= form.input :grade_entering, :as => :select, :label => "Grade Entering", :collection => [["5th"], ["6th"], ["7th"], ["8th"], ["9th"], ["10th"], ["11th"]] %>
+<%= form.input :phone_number, :as => :phone, :label => "Phone Number" %>
+<%= form.input :emerg_phone_number, :as => :phone, :label => "Emergency Contact Phone Number" %>
+<%= form.input :parent_email, :as => :email, :label => "Parent/Gaurdian Email" %>
+<%= form.input :photo_consent, :as => :check_boxes, :label => "Photo Consent", :collection => [[" Yes"], [" No"]] %>
+<%= form.input :bus_id, :as => :select, :label => "Bus Routes", :collection => [[]] %>
+<%= form.input :ethnicity, :as => :select, :label => "Ethnicity", :collection => [["White"], ["Pacific Islander"], ["Hispanic/Latino"], ["African American"], ["Asian"], ["Alaskan/American Indian"], ["Other"]] %>
+<%= form.input :street_name, :label => "Address" %>
+<%= form.input :city, :as => :select, :collection => [["Altoona"], ["Arkansaw"], ["Augusta"], ["Barron"], ["Bloomer"], ["Boyceville"], ["Boyd"], ["Cadott"], ["Chetek"], ["Chippewa Falls"], ["Colfax"], ["Durand"], ["Eau Claire-01"], ["Eau Claire-02"], ["Eau Claire-03"], ["Eleva"], ["Elk Mound"], ["Fairchild"], ["Fall Creek"], ["Gilman"], ["Hixton"], ["Holcombe"], ["Humbird"], ["Jim Falls"], ["Knapp"], ["Menomonie"], ["Mondovi"], ["New Auburn"], ["Osseo"], ["Rock Falls"], ["Stanley"], ["Strum"], ["Wheeler"]] %>
+<%= form.input :state, :as => :select, :collection => [["WI"]] %>
+<%= form.input :zipcode, :as => :select, :collection => [[]] %>
+<%= form.input :guardian1, :as => :select, :label => "Gaurdian 1", :collection => [["Mother"], ["Guardian"], ["Foster"]] %>
+<%= form.input :guardian2, :as => :select, :label => "Guardian 2", :collection => [["Father"], ["Guardian"], ["Foster"]] %>
+<% end %>
+<%= form.actions do %>
+<%= form.action :submit, :as => :button %>
+<% end %>
+<% end %>
