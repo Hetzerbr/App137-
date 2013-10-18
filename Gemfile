@@ -12,6 +12,7 @@ gem 'ruby-odbc'
 #gem 'tiny_tds'
 gem 'mysql2'
 gem "simple_form"  
+gem 'formtastic-bootstrap'
 
 group :development, :test do
   gem 'sqlite3','1.3.5'

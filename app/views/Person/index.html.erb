@@ -1,3 +1,5 @@
+<%= stylesheet_link_tag    "formtastic", :media => "all" %>
+<%= stylesheet_link_tag    "person", :media => "all" %>
 <%= semantic_form_for @person do |form| %>
 <%= form.inputs do %>
 <%= form.input :first_name %>
@@ -19,7 +21,7 @@
 <%= form.input :guardian1, :as => :select, :label => "Gaurdian 1", :collection => [["Mother"], ["Guardian"], ["Foster"]] %>
 <%= form.input :guardian2, :as => :select, :label => "Guardian 2", :collection => [["Father"], ["Guardian"], ["Foster"]] %>
 
-<%= form.input :reg_date, :as => :date_select, :discard_day => true, :discard_month => true, :start_year => Time.now.year, :include_blank => false  %>
+<%= form.input :reg_date, :as => :date_select, :label => "Registration Date", :discard_day => true, :discard_month => true, :start_year => Time.now.year, :include_blank => false  %>
 <%= form.input :school, :as => :select, :label => "School", :collection => [["Home Schooled"], ["Altoona Parochial/Private Schools"], ["EC Parochial/Private Schools"], ["Pedersen Elementary"], ["Altoona Middle School"], ["Altoona High School"], ["CF Hillcrest"], ["CF Halmstead"], ["CF Parkview"], ["CF Southview"], ["CF Stillson"], ["Chippewa Middle School"], ["Chippewa High School"], ["Flynn"], ["Delong Middle"], ["Lake Shore"], ["Lincoln"], ["Little Red"], ["Locust Lane"], ["Longfellow"], ["Manz"], ["Meadowview"], ["Memorial High School"], ["North High School"], ["Northstar Middle"], ["Northwoods"], ["Putname Heights"], ["Robbins"], ["Roosevelt"], ["Sam Davey"], ["Sherman"], ["South Middle"], ["Augusta"], ["Elk Mound"], ["Fairchild"], ["Fall Creek"], ["Osseo"], ["Other"]] %>
 <%= form.input :physical_on_file, :as => :check_boxes, :label => "Physical On File?", :collection => [[" Yes"], [" No"]] %>
 <%= form.input :physical_date %>
