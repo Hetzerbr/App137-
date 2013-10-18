@@ -3,8 +3,8 @@
 <%= form.input :first_name %>
 <%= form.input :last_name %>
 <%= form.input :middle_init %>
-<%= form.input :date_of_birth, :start_year => 1997 %>
-<%= form.input :gender, :as => :check_boxes, :label => "Gender", :collection => [[" Male", 'M'], [" Female", 'F']] %>
+<%= form.input :date_of_birth, :as => :date_select, :order => [:day, :month, :year], :start_year => 1997 %>
+<%= form.input :gender, :as => :check_boxes, :label => "Gender", :collection => [[" M"], [" F",]] %>
 <%= form.input :grade_entering, :as => :select, :label => "Grade Entering", :collection => [["5th"], ["6th"], ["7th"], ["8th"], ["9th"], ["10th"], ["11th"]] %>
 <%= form.input :phone_number, :as => :phone, :label => "Phone Number" %>
 <%= form.input :emerg_phone_number, :as => :phone, :label => "Emergency Contact Phone Number" %>
@@ -14,10 +14,17 @@
 <%= form.input :ethnicity, :as => :select, :label => "Ethnicity", :collection => [["White"], ["Pacific Islander"], ["Hispanic/Latino"], ["African American"], ["Asian"], ["Alaskan/American Indian"], ["Other"]] %>
 <%= form.input :street_name, :label => "Address" %>
 <%= form.input :city, :as => :select, :collection => [["Altoona"], ["Arkansaw"], ["Augusta"], ["Barron"], ["Bloomer"], ["Boyceville"], ["Boyd"], ["Cadott"], ["Chetek"], ["Chippewa Falls"], ["Colfax"], ["Durand"], ["Eau Claire-01"], ["Eau Claire-02"], ["Eau Claire-03"], ["Eleva"], ["Elk Mound"], ["Fairchild"], ["Fall Creek"], ["Gilman"], ["Hixton"], ["Holcombe"], ["Humbird"], ["Jim Falls"], ["Knapp"], ["Menomonie"], ["Mondovi"], ["New Auburn"], ["Osseo"], ["Rock Falls"], ["Stanley"], ["Strum"], ["Wheeler"]] %>
-<%= form.input :state, :as => :select, :collection => [["WI"]] %>
+<%= form.input :state, :as => :select, :collection => [["WI"]], :include_blank => false %>
 <%= form.input :zipcode, :as => :select, :collection => [[]] %>
 <%= form.input :guardian1, :as => :select, :label => "Gaurdian 1", :collection => [["Mother"], ["Guardian"], ["Foster"]] %>
 <%= form.input :guardian2, :as => :select, :label => "Guardian 2", :collection => [["Father"], ["Guardian"], ["Foster"]] %>
+
+<%= form.input :reg_date, :as => :date_select, :discard_day => true, :discard_month => true, :start_year => Time.now.year, :include_blank => false  %>
+<%= form.input :school, :as => :select, :label => "School", :collection => [["Home Schooled"], ["Altoona Parochial/Private Schools"], ["EC Parochial/Private Schools"], ["Pedersen Elementary"], ["Altoona Middle School"], ["Altoona High School"], ["CF Hillcrest"], ["CF Halmstead"], ["CF Parkview"], ["CF Southview"], ["CF Stillson"], ["Chippewa Middle School"], ["Chippewa High School"], ["Flynn"], ["Delong Middle"], ["Lake Shore"], ["Lincoln"], ["Little Red"], ["Locust Lane"], ["Longfellow"], ["Manz"], ["Meadowview"], ["Memorial High School"], ["North High School"], ["Northstar Middle"], ["Northwoods"], ["Putname Heights"], ["Robbins"], ["Roosevelt"], ["Sam Davey"], ["Sherman"], ["South Middle"], ["Augusta"], ["Elk Mound"], ["Fairchild"], ["Fall Creek"], ["Osseo"], ["Other"]] %>
+<%= form.input :physical_on_file, :as => :check_boxes, :label => "Physical On File?", :collection => [[" Yes"], [" No"]] %>
+<%= form.input :physical_date %>
+<%= form.input :physical_time %>
+<%= form.input :physical_status, :as => :select, :label => "Status", :collection => [["No Physical"], ["Private"], ["Family Medicine Clinic"]] %>
 <% end %>
 <%= form.actions do %>
 <%= form.action :submit, :as => :button %>

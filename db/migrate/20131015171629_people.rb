@@ -20,7 +20,12 @@ def change
       t.string :zipcode
       t.string :guardian1
       t.string :guardian2
-
+      t.date   :reg_date
+      t.string :school
+      t.string :physical_on_file
+      t.string :physical_date
+      t.string :physical_time
+      t.string :physical_status
 end
 end
 end
