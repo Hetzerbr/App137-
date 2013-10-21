@@ -15136,3 +15136,377 @@ ActionController::RoutingError (No route matches [GET] "/stylesheets/style.css")
 
 Started GET "/assets/person.css?body=1" for 127.0.0.1 at Fri Oct 18 11:44:04 -0500 2013
 Served asset /person.css - 200 OK (11ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 21 11:37:30 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (323.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 614ms (Views: 564.0ms | ActiveRecord: 27.1ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at Mon Oct 21 11:37:31 -0500 2013
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/style.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/application.css.css?body=1" for 127.0.0.1 at Mon Oct 21 11:37:31 -0500 2013
+Served asset /application.css.css - 200 OK (12ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at Mon Oct 21 11:37:31 -0500 2013
+Served asset /formtastic.css - 200 OK (2ms)
+
+
+Started GET "/assets/person.css?body=1" for 127.0.0.1 at Mon Oct 21 11:37:31 -0500 2013
+Served asset /person.css - 200 OK (13ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 21 11:37:31 -0500 2013
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 21 11:37:31 -0500 2013
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Mon Oct 21 11:37:31 -0500 2013
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at Mon Oct 21 11:37:31 -0500 2013
+Served asset /static_pages.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 21 11:37:31 -0500 2013
+Served asset /application.js - 200 OK (67ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 21 11:43:19 -0500 2013
+Processing by PersonController#index as HTML
+ERROR: compiling _app_views_person_index_html_erb___502661219_2225313580 RAISED compile error
+/Users/hetzerbr/App137-/app/views/person/index.html.erb:32: syntax error, unexpected tSTRING_BEG, expecting tASSOC
+... :as => :button, :submit_tag 'Register' );@output_buffer.saf...
+                              ^
+Function body:           def _app_views_person_index_html_erb___502661219_2225313580(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "person/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.append= ( stylesheet_link_tag    "formtastic", :media => "all" );@output_buffer.safe_concat('
+');@output_buffer.append= ( stylesheet_link_tag    "person", :media => "all" );@output_buffer.safe_concat('
+');@output_buffer.append=  semantic_form_for @person do |form| @output_buffer.safe_concat('
+');@output_buffer.append=  form.inputs do @output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :first_name );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :last_name );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :middle_init );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :date_of_birth, :as => :date_select, :order => [:day, :month, :year], :start_year => 1997 );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :gender, :as => :check_boxes, :label => "Gender", :collection => [[" M"], [" F",]] );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :grade_entering, :as => :select, :label => "Grade Entering", :collection => [["5th"], ["6th"], ["7th"], ["8th"], ["9th"], ["10th"], ["11th"]] );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :phone_number, :as => :phone, :label => "Phone Number" );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :emerg_phone_number, :as => :phone, :label => "Emergency Contact Phone Number" );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :parent_email, :as => :email, :label => "Parent/Gaurdian Email" );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :photo_consent, :as => :check_boxes, :label => "Photo Consent", :collection => [[" Yes"], [" No"]] );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :bus_id, :as => :select, :label => "Bus Routes", :collection => [[]] );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :ethnicity, :as => :select, :label => "Ethnicity", :collection => [["White"], ["Pacific Islander"], ["Hispanic/Latino"], ["African American"], ["Asian"], ["Alaskan/American Indian"], ["Other"]] );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :street_name, :label => "Address" );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :city, :as => :select, :collection => [["Altoona"], ["Arkansaw"], ["Augusta"], ["Barron"], ["Bloomer"], ["Boyceville"], ["Boyd"], ["Cadott"], ["Chetek"], ["Chippewa Falls"], ["Colfax"], ["Durand"], ["Eau Claire-01"], ["Eau Claire-02"], ["Eau Claire-03"], ["Eleva"], ["Elk Mound"], ["Fairchild"], ["Fall Creek"], ["Gilman"], ["Hixton"], ["Holcombe"], ["Humbird"], ["Jim Falls"], ["Knapp"], ["Menomonie"], ["Mondovi"], ["New Auburn"], ["Osseo"], ["Rock Falls"], ["Stanley"], ["Strum"], ["Wheeler"]] );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :state, :as => :select, :collection => [["WI"]], :include_blank => false );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :zipcode, :as => :select, :collection => [[]] );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :guardian1, :as => :select, :label => "Gaurdian 1", :collection => [["Mother"], ["Guardian"], ["Foster"]] );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :guardian2, :as => :select, :label => "Guardian 2", :collection => [["Father"], ["Guardian"], ["Foster"]] );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :reg_date, :as => :date_select, :label => "Registration Date", :discard_day => true, :discard_month => true, :start_year => Time.now.year, :include_blank => false  );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :school, :as => :select, :label => "School", :collection => [["Home Schooled"], ["Altoona Parochial/Private Schools"], ["EC Parochial/Private Schools"], ["Pedersen Elementary"], ["Altoona Middle School"], ["Altoona High School"], ["CF Hillcrest"], ["CF Halmstead"], ["CF Parkview"], ["CF Southview"], ["CF Stillson"], ["Chippewa Middle School"], ["Chippewa High School"], ["Flynn"], ["Delong Middle"], ["Lake Shore"], ["Lincoln"], ["Little Red"], ["Locust Lane"], ["Longfellow"], ["Manz"], ["Meadowview"], ["Memorial High School"], ["North High School"], ["Northstar Middle"], ["Northwoods"], ["Putname Heights"], ["Robbins"], ["Roosevelt"], ["Sam Davey"], ["Sherman"], ["South Middle"], ["Augusta"], ["Elk Mound"], ["Fairchild"], ["Fall Creek"], ["Osseo"], ["Other"]] );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :physical_on_file, :as => :check_boxes, :label => "Physical On File?", :collection => [[" Yes"], [" No"]] );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :physical_date );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :physical_time );@output_buffer.safe_concat('
+');@output_buffer.append= ( form.input :physical_status, :as => :select, :label => "Status", :collection => [["No Physical"], ["Private"], ["Family Medicine Clinic"]] );@output_buffer.safe_concat('
+'); end 
+@output_buffer.append=  form.actions do @output_buffer.safe_concat('
+');@output_buffer.append= ( form.action :submit, :as => :button, :submit_tag 'Register' );@output_buffer.safe_concat('
+'); end 
+ end ;@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/hetzerbr/App137-/app/views/person/index.html.erb:37:in `compile'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/template.rb:244:in `compile!'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/template.rb:232:in `synchronize'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/template.rb:232:in `compile!'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/template.rb:144:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/notifications.rb:125:in `instrument'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/template.rb:143:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:46:in `render_template'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activerecord-3.2.11/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:414:in `_run__1985423141__process_action__509355838__callbacks'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `send'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:81:in `send'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/notifications.rb:123:in `instrument'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activerecord-3.2.11/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/abstract_controller/base.rb:121:in `process'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_controller/metal.rb:246:in `action'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/journey-1.0.4/lib/journey/router.rb:68:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activerecord-3.2.11/lib/active_record/query_cache.rb:64:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activerecord-3.2.11/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `_run__2024426424__call__4__callbacks'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `send'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:81:in `send'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/rack/logger.rb:32:in `call_app'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/rack/logger.rb:16:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/tagged_logging.rb:22:in `tagged'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/rack/logger.rb:16:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/activesupport-3.2.11/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/engine.rb:479:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/application.rb:223:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/handler/webrick.rb:13:in `run'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/rack-1.4.5/lib/rack/server.rb:268:in `start'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/commands/server.rb:70:in `start'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/commands.rb:55
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/commands.rb:50:in `tap'
+/Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/railties-3.2.11/lib/rails/commands.rb:50
+script/rails:6:in `require'
+script/rails:6
+  Rendered person/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (compile error
+/Users/hetzerbr/App137-/app/views/person/index.html.erb:32: syntax error, unexpected tSTRING_BEG, expecting tASSOC
+... :as => :button, :submit_tag 'Register' );@output_buffer.saf...
+                              ^):
+    29: <%= form.input :physical_status, :as => :select, :label => "Status", :collection => [["No Physical"], ["Private"], ["Family Medicine Clinic"]] %>
+    30: <% end %>
+    31: <%= form.actions do %>
+    32: <%= form.action :submit, :as => :button, :submit_tag 'Register' %>
+    33: <% end %>
+    34: <% end %>
+  app/views/person/index.html.erb:37:in `compile'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 21 11:43:29 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (61.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 68ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at Mon Oct 21 11:43:29 -0500 2013
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/style.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 21 11:43:59 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (59.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 148ms (Views: 147.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/style.css" for 127.0.0.1 at Mon Oct 21 11:43:59 -0500 2013
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/style.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
