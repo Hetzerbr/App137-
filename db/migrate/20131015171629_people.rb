@@ -26,6 +26,7 @@ def change
       t.string :physical_date
       t.string :physical_time
       t.string :physical_status
+      t.string :comments
 end
 end
 end

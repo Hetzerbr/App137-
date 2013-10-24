@@ -12,7 +12,7 @@ gem 'ruby-odbc'
 #gem 'tiny_tds'
 gem 'mysql2'
 gem "simple_form"  
-gem 'formtastic-bootstrap'
+gem "formtastic-plus-bootstrap"
 
 group :development, :test do
   gem 'sqlite3','1.3.5'
@@ -42,6 +42,7 @@ group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'nokogiri',     '~> 1.5.10'
+  gem 'twitter-bootstrap-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby

@@ -26,7 +26,8 @@
 <%= form.input :physical_on_file, :as => :check_boxes, :label => "Physical On File?", :collection => [[" Yes"], [" No"]] %>
 <%= form.input :physical_date %>
 <%= form.input :physical_time %>
-<%= form.input :physical_status, :as => :select, :label => "Status", :collection => [["No Physical"], ["Private"], ["Family Medicine Clinic"]] %>
+<%= form.input :physical_status, :as => :select, :label => "Physical Status", :collection => [["No Physical"], ["Private"], ["Family Medicine Clinic"]] %>
+<%= form.input :comments, :as => :text %>
 <% end %>
 <%= form.actions do %>
 <%= form.action :submit, :as => :button, :label => 'Register' %>

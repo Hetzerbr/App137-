@@ -38,6 +38,7 @@ ActiveRecord::Schema.define(:version => 20131015171629) do
     t.string "physical_date"
     t.string "physical_time"
     t.string "physical_status"
+    t.string "comments"
   end
 
 end
