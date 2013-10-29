@@ -1,10 +1,10 @@
 WyspApp::Application.routes.draw do
   resources :people
 
-  match '/index', :to => 'person#index'
-  match '/bus_route', :to => 'bus_route#bus_route'
+  #match '/index', :to => 'person#index'
+  #match '/bus_route', :to => 'bus_route#bus_route'
    
-   root :to => 'person#index'
+   root :to => 'people#index'
    
   # The priority is based upon order of creation:
   # first created -> highest priority.

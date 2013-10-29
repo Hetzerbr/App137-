@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131015171629) do
+ActiveRecord::Schema.define(:version => 20131029190408) do
 
   create_table "People", :force => true do |t|
     t.string "first_name"
@@ -39,6 +39,26 @@ ActiveRecord::Schema.define(:version => 20131015171629) do
     t.string "physical_time"
     t.string "physical_status"
     t.text   "comments"
+  end
+
+  create_table "buses", :force => true do |t|
+    t.string   "name"
+    t.integer  "number"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "buses_people", :id => false, :force => true do |t|
+    t.integer "bus_id"
+    t.integer "person_id"
+  end
+
+  add_index "buses_people", ["bus_id", "person_id"], :name => "index_buses_people_on_bus_id_and_person_id"
+
+  create_table "schools", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
 end
