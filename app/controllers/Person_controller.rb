@@ -8,7 +8,7 @@ class PersonController < ApplicationController
   end
 
   def create
-  	@person = Person.new(params[:person])
+  	@person = Person.new(params[:Person])
   	if @person.save
   		redirect_to new_person_path
   	end

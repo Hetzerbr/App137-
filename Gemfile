@@ -12,7 +12,7 @@ gem 'ruby-odbc'
 #gem 'tiny_tds'
 gem 'mysql2'
 gem "simple_form"  
-gem "formtastic-plus-bootstrap"
+
 
 group :development, :test do
   gem 'sqlite3','1.3.5'
@@ -27,6 +27,7 @@ group :test do
   gem 'factory_girl', '2.1.0'
   gem 'factory_girl_rails','1.2'
   gem 'capybara', '1.1.2'
+  gem 'zurb-foundation'
 end
 
 # Bundle edge Rails instead:
@@ -42,7 +43,8 @@ group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'nokogiri',     '~> 1.5.10'
-  gem 'twitter-bootstrap-rails'
+  gem 'zurb-foundation'
+  gem 'rubyzip',      '~> 0.9.9'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby

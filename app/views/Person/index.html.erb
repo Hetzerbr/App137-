@@ -1,5 +1,3 @@
-<%= stylesheet_link_tag    "formtastic", :media => "all" %>
-<%= stylesheet_link_tag    "person", :media => "all" %>
 <%= semantic_form_for @person do |form| %>
 <%= form.inputs do %>
 <%= form.input :first_name %>
@@ -30,6 +28,6 @@
 <%= form.input :comments, :as => :text %>
 <% end %>
 <%= form.actions do %>
-<%= form.action :submit, :as => :button, :label => 'Register' %>
+<%= form.action :submit, :as => :button, :label => 'Register', :class => "button radius" %>
 <% end %>
 <% end %>

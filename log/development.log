@@ -19678,3 +19678,2040 @@ Processing by PersonController#index as HTML
   Rendered layouts/_shim.html.erb (0.1ms)
   Rendered layouts/_header.html.erb (0.6ms)
 Completed 200 OK in 147ms (Views: 146.7ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 24 13:05:00 -0500 2013
+Processing by PersonController#index as HTML
+Compiled formtastic.css  (0ms)  (pid 92104)
+  Rendered person/index.html.erb within layouts/application (224.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 358ms (Views: 332.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 24 13:10:45 -0500 2013
+Processing by PersonController#index as HTML
+Compiled formtastic.css  (0ms)  (pid 92104)
+  Rendered person/index.html.erb within layouts/application (75.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 145ms (Views: 144.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 24 13:11:02 -0500 2013
+Processing by PersonController#index as HTML
+Compiled formtastic.css  (0ms)  (pid 92104)
+  Rendered person/index.html.erb within layouts/application (74.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 83ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 24 13:18:07 -0500 2013
+Processing by PersonController#index as HTML
+Compiled formtastic.css  (0ms)  (pid 92104)
+  Rendered person/index.html.erb within layouts/application (143.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 152ms (Views: 151.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 24 13:18:22 -0500 2013
+Processing by PersonController#index as HTML
+Compiled formtastic.css  (0ms)  (pid 92104)
+  Rendered person/index.html.erb within layouts/application (143.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 152ms (Views: 151.3ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Fri Oct 25 10:51:17 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (239.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 410ms (Views: 387.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/person.css?body=1" for 127.0.0.1 at Fri Oct 25 10:51:17 -0500 2013
+Served asset /person.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css.css?body=1" for 127.0.0.1 at Fri Oct 25 10:51:17 -0500 2013
+Served asset /application.css.css - 200 OK (10ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at Fri Oct 25 10:51:17 -0500 2013
+Served asset /formtastic.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Oct 25 10:51:17 -0500 2013
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Oct 25 10:51:17 -0500 2013
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Fri Oct 25 10:51:17 -0500 2013
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at Fri Oct 25 10:51:17 -0500 2013
+Served asset /static_pages.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Oct 25 10:51:17 -0500 2013
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Oct 25 10:51:19 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (131.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 142ms (Views: 141.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/person.css?body=1" for 127.0.0.1 at Fri Oct 25 10:51:19 -0500 2013
+Served asset /person.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css.css?body=1" for 127.0.0.1 at Fri Oct 25 10:51:19 -0500 2013
+Served asset /application.css.css - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Fri Oct 25 10:51:19 -0500 2013
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Oct 25 10:51:19 -0500 2013
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Oct 25 10:51:19 -0500 2013
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at Fri Oct 25 10:51:19 -0500 2013
+Served asset /formtastic.css - 200 OK (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at Fri Oct 25 10:51:19 -0500 2013
+Served asset /static_pages.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Oct 25 10:51:19 -0500 2013
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Oct 25 10:51:45 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (129.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 139ms (Views: 138.4ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 10:08:57 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (267.4ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 535ms (Views: 484.7ms | ActiveRecord: 27.1ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at Mon Oct 28 10:08:58 -0500 2013
+Served asset /formtastic.css - 200 OK (2ms)
+
+
+Started GET "/assets/person.css?body=1" for 127.0.0.1 at Mon Oct 28 10:08:58 -0500 2013
+Served asset /person.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css.css?body=1" for 127.0.0.1 at Mon Oct 28 10:08:58 -0500 2013
+Served asset /application.css.css - 200 OK (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 28 10:08:58 -0500 2013
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Mon Oct 28 10:08:58 -0500 2013
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 28 10:08:58 -0500 2013
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at Mon Oct 28 10:08:58 -0500 2013
+Served asset /static_pages.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 28 10:08:58 -0500 2013
+Served asset /application.js - 200 OK (9ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 10:10:18 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (66.3ms)
+Compiled application.css.css  (26ms)  (pid 58252)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 116ms (Views: 115.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 10:11:07 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (127.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 135ms (Views: 135.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 10:12:00 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (65.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at Mon Oct 28 10:12:00 -0500 2013
+Served asset /formtastic.css - 200 OK (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at Mon Oct 28 10:12:00 -0500 2013
+Served asset /static_pages.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css.css?body=1" for 127.0.0.1 at Mon Oct 28 10:12:00 -0500 2013
+Served asset /application.css.css - 200 OK (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Mon Oct 28 10:12:00 -0500 2013
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 28 10:12:00 -0500 2013
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/person.css?body=1" for 127.0.0.1 at Mon Oct 28 10:12:00 -0500 2013
+Served asset /person.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 28 10:12:00 -0500 2013
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 28 10:12:00 -0500 2013
+Served asset /application.js - 200 OK (11ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 10:18:42 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (157.8ms)
+Compiled foundation/foundation.js  (0ms)  (pid 58533)
+Compiled foundation/foundation.alerts.js  (0ms)  (pid 58533)
+Compiled foundation/foundation.clearing.js  (0ms)  (pid 58533)
+Compiled foundation/foundation.cookie.js  (1ms)  (pid 58533)
+Compiled foundation/foundation.dropdown.js  (0ms)  (pid 58533)
+Compiled foundation/foundation.forms.js  (0ms)  (pid 58533)
+Compiled foundation/foundation.joyride.js  (1ms)  (pid 58533)
+Compiled foundation/foundation.magellan.js  (0ms)  (pid 58533)
+Compiled foundation/foundation.orbit.js  (0ms)  (pid 58533)
+Compiled foundation/foundation.reveal.js  (0ms)  (pid 58533)
+Compiled foundation/foundation.section.js  (0ms)  (pid 58533)
+Compiled foundation/foundation.tooltips.js  (0ms)  (pid 58533)
+Compiled foundation/foundation.topbar.js  (0ms)  (pid 58533)
+Compiled foundation/foundation.interchange.js  (0ms)  (pid 58533)
+Compiled foundation/foundation.placeholder.js  (1ms)  (pid 58533)
+Compiled foundation/foundation.abide.js  (0ms)  (pid 58533)
+Compiled foundation/index.js  (409ms)  (pid 58533)
+Compiled application.js  (431ms)  (pid 58533)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 728ms (Views: 705.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at Mon Oct 28 10:18:42 -0500 2013
+Served asset /foundation/foundation.js - 200 OK (9ms)
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at Mon Oct 28 10:18:42 -0500 2013
+Served asset /foundation/foundation.alerts.js - 200 OK (8ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at Mon Oct 28 10:18:42 -0500 2013
+Served asset /foundation/foundation.clearing.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at Mon Oct 28 10:18:42 -0500 2013
+Served asset /foundation/foundation.cookie.js - 200 OK (4ms)
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at Mon Oct 28 10:18:43 -0500 2013
+Served asset /foundation/foundation.dropdown.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at Mon Oct 28 10:18:43 -0500 2013
+Served asset /foundation/foundation.forms.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at Mon Oct 28 10:18:43 -0500 2013
+Served asset /foundation/foundation.joyride.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at Mon Oct 28 10:18:43 -0500 2013
+Served asset /foundation/foundation.magellan.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at Mon Oct 28 10:18:43 -0500 2013
+Served asset /foundation/foundation.orbit.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at Mon Oct 28 10:18:43 -0500 2013
+Served asset /foundation/foundation.reveal.js - 200 OK (4ms)
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at Mon Oct 28 10:18:43 -0500 2013
+Served asset /foundation/foundation.section.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at Mon Oct 28 10:18:43 -0500 2013
+Served asset /foundation/foundation.tooltips.js - 200 OK (4ms)
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at Mon Oct 28 10:18:43 -0500 2013
+Served asset /foundation/foundation.topbar.js - 200 OK (4ms)
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at Mon Oct 28 10:18:43 -0500 2013
+Served asset /foundation/foundation.interchange.js - 200 OK (4ms)
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at Mon Oct 28 10:18:43 -0500 2013
+Served asset /foundation/foundation.placeholder.js - 200 OK (4ms)
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at Mon Oct 28 10:18:43 -0500 2013
+Served asset /foundation/foundation.abide.js - 200 OK (4ms)
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at Mon Oct 28 10:18:43 -0500 2013
+Served asset /foundation/index.js - 200 OK (26ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to People (20131015171629)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:19:11 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (157.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 389ms (Views: 365.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/person.css?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /person.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /jquery.js - 200 OK (7ms)
+
+
+Started GET "/assets/application.css.css?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /application.css.css - 200 OK (4ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /formtastic.css - 200 OK (2ms)
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /foundation/foundation.js - 200 OK (4ms)
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /foundation/foundation.alerts.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /foundation/foundation.clearing.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /foundation/foundation.cookie.js - 200 OK (6ms)
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /foundation/foundation.dropdown.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /foundation/foundation.forms.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /foundation/foundation.joyride.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /foundation/foundation.orbit.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /foundation/foundation.magellan.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /foundation/foundation.reveal.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /foundation/foundation.section.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /foundation/foundation.tooltips.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /foundation/foundation.topbar.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /foundation/foundation.interchange.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /foundation/foundation.placeholder.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /foundation/foundation.abide.js - 200 OK (4ms)
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /foundation/index.js - 200 OK (25ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /static_pages.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 28 11:19:12 -0500 2013
+Served asset /application.js - 200 OK (106ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:19:15 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (63.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 76ms (Views: 75.7ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:32:27 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (164.6ms)
+Compiled person.css  (113ms)  (pid 60299)
+Compiled foundation_and_overrides.css  (16044ms)  (pid 60299)
+Compiled application.css.css  (16117ms)  (pid 60299)
+Completed 500 Internal Server Error in 16750ms
+
+ActionController::RoutingError (No route matches {:controller=>"person"}):
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb___1713357163_2241098000'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:32:44 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (54.6ms)
+Completed 500 Internal Server Error in 68ms
+
+ActionController::RoutingError (No route matches {:controller=>"person"}):
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb___1713357163_2241098000'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to People (20131015171629)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:33:56 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (155.5ms)
+Completed 500 Internal Server Error in 349ms
+
+ActionController::RoutingError (No route matches {:controller=>"person"}):
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb___99969031_2192111860'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:35:42 -0500 2013
+
+SyntaxError (/Users/hetzerbr/App137-/config/routes.rb:67: syntax error, unexpected kEND, expecting $end):
+  activesupport (3.2.11) lib/active_support/dependencies.rb:245:in `load'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:245:in `load'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:236:in `load_dependency'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:245:in `load'
+  railties (3.2.11) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (3.2.11) lib/rails/application/routes_reloader.rb:40:in `each'
+  railties (3.2.11) lib/rails/application/routes_reloader.rb:40:in `load_paths'
+  railties (3.2.11) lib/rails/application/routes_reloader.rb:16:in `reload!'
+  railties (3.2.11) lib/rails/application/routes_reloader.rb:26:in `updater'
+  activesupport (3.2.11) lib/active_support/file_update_checker.rb:78:in `call'
+  activesupport (3.2.11) lib/active_support/file_update_checker.rb:78:in `execute'
+  activesupport (3.2.11) lib/active_support/file_update_checker.rb:86:in `execute_if_updated'
+  railties (3.2.11) lib/rails/application/routes_reloader.rb:7:in `__send__'
+  railties (3.2.11) lib/rails/application/routes_reloader.rb:7:in `execute_if_updated'
+  railties (3.2.11) lib/rails/application/finisher.rb:68:in `_callback_before_7'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:451:in `_run__750724617__prepare__4__callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:385:in `_run_prepare_callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:74:in `prepare!'
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:35:55 -0500 2013
+
+ArgumentError (can't use collection outside resource(s) scope):
+  config/routes.rb:3
+  config/routes.rb:1
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:36:12 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (117.4ms)
+Completed 500 Internal Server Error in 152ms
+
+ActionController::RoutingError (No route matches {:controller=>"person"}):
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb___99969031_2192111860'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:43:39 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (53.9ms)
+Completed 500 Internal Server Error in 154ms
+
+ActionController::RoutingError (No route matches {:controller=>"person"}):
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb___99969031_2192111860'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:44:31 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (52.8ms)
+Completed 500 Internal Server Error in 155ms
+
+ActionController::RoutingError (No route matches {:controller=>"person"}):
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb___99969031_2192111860'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:44:51 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (167.3ms)
+Completed 500 Internal Server Error in 369ms
+
+ActionController::RoutingError (No route matches {:controller=>"person"}):
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb___309044322_2214260940'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:49:36 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (157.2ms)
+Completed 500 Internal Server Error in 355ms
+
+ActionController::RoutingError (No route matches {:controller=>"person"}):
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__700903781_2266192200'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:49:40 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (125.1ms)
+Completed 500 Internal Server Error in 138ms
+
+ActionController::RoutingError (No route matches {:controller=>"person"}):
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__700903781_2266192200'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:49:49 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (65.0ms)
+Completed 500 Internal Server Error in 153ms
+
+ActionController::RoutingError (No route matches {:controller=>"person"}):
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__700903781_2266192200'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:50:18 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (158.7ms)
+Completed 500 Internal Server Error in 356ms
+
+ActionController::RoutingError (No route matches {:controller=>"person"}):
+  app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__1065987094_2224728320'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:55:42 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (161.0ms)
+Compiled Person.css  (11ms)  (pid 60585)
+Compiled application.css  (104ms)  (pid 60585)
+Completed 500 Internal Server Error in 428ms
+
+ActionController::RoutingError (No route matches {:controller=>"person"}):
+  app/views/layouts/application.html.erb:35:in `_app_views_layouts_application_html_erb___2032544222_2274859760'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:58:02 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <%= semantic_form_for @people.each do |form| %>
+    2: <%= form.inputs do %>
+    3: <%= form.input :first_name %>
+    4: <%= form.input :last_name %>
+  app/views/person/index.html.erb:1:in `_app_views_person_index_html_erb__460608689_2276192080'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:58:35 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <%= semantic_form_for @people do |form| %>
+    2: <%= form.inputs do %>
+    3: <%= form.input :first_name %>
+    4: <%= form.input :last_name %>
+  app/views/person/index.html.erb:1:in `_app_views_person_index_html_erb__460608689_2274689680'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:58:50 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <%= semantic_form_for @Person do |form| %>
+    2: <%= form.inputs do %>
+    3: <%= form.input :first_name %>
+    4: <%= form.input :last_name %>
+  app/views/person/index.html.erb:1:in `_app_views_person_index_html_erb__460608689_2273833100'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 28 11:59:06 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (129.9ms)
+Completed 500 Internal Server Error in 146ms
+
+ActionController::RoutingError (No route matches {:controller=>"person"}):
+  app/views/layouts/application.html.erb:35:in `_app_views_layouts_application_html_erb___2032544222_2274859760'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 11:57:14 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (161.7ms)
+Completed 500 Internal Server Error in 437ms
+
+ActionController::RoutingError (No route matches {:controller=>"person"}):
+  app/views/layouts/application.html.erb:35:in `_app_views_layouts_application_html_erb___532150876_2179499780'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:02:09 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (156.8ms)
+Completed 500 Internal Server Error in 314ms
+
+ActionController::RoutingError (No route matches {:controller=>"person"}):
+  app/views/layouts/application.html.erb:35:in `_app_views_layouts_application_html_erb__413124872_2252963140'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:03:15 -0500 2013
+
+SyntaxError (/Users/hetzerbr/App137-/app/controllers/person_controller.rb:1: class/module name must be CONSTANT
+class person_controller < ApplicationController
+                         ^):
+  activesupport (3.2.11) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.11) lib/active_support/inflector/methods.rb:219:in `constantize'
+  activesupport (3.2.11) lib/active_support/inflector/methods.rb:218:in `each'
+  activesupport (3.2.11) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.11) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.11) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.11) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.11) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `_run__428192108__call__4__callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.11) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.11) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:04:21 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (156.9ms)
+Completed 500 Internal Server Error in 312ms
+
+ActionController::RoutingError (No route matches {:controller=>"person"}):
+  app/views/layouts/application.html.erb:35:in `_app_views_layouts_application_html_erb___331897421_2208161860'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:05:38 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (14.7ms)
+Completed 500 Internal Server Error in 45ms
+
+ActionView::Template::Error (undefined method `people_path' for #<#<Class:0x10f8f5f10>:0x10f8f1140>):
+    1: <%= semantic_form_for @person do |form| %>
+    2: <%= form.inputs do %>
+    3: <%= form.input :first_name %>
+    4: <%= form.input :last_name %>
+  app/views/person/index.html.erb:1:in `_app_views_person_index_html_erb___137104557_2277918640'
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.5ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (1.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to People (20131015171629)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "People" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(255), "last_name" varchar(255), "middle_init" varchar(255), "description" varchar(255), "date_of_birth" date, "gender" varchar(255), "grade_entering" varchar(255), "phone_number" varchar(255), "emerg_phone_number" varchar(255), "parent_email" varchar(255), "photo_consent" varchar(255), "bus_id" varchar(255), "ethnicity" varchar(255), "street_name" varchar(255), "city" varchar(255), "state" varchar(255), "zipcode" varchar(255), "guardian1" varchar(255), "guardian2" varchar(255), "reg_date" date, "school" varchar(255), "physical_on_file" varchar(255), "physical_date" varchar(255), "physical_time" varchar(255), "physical_status" varchar(255), "comments" text) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20131015171629')[0m
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:08:49 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (158.6ms)
+Completed 200 OK in 419ms (Views: 394.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at Tue Oct 29 12:08:49 -0500 2013
+Served asset /formtastic.css - 200 OK (3ms)
+
+
+Started GET "/assets/person.css" for 127.0.0.1 at Tue Oct 29 12:08:49 -0500 2013
+Served asset /person.css - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/person.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 29 12:08:49 -0500 2013
+Served asset /application.css - 200 OK (94ms)
+
+
+Started GET "/assets/Person.css?body=1" for 127.0.0.1 at Tue Oct 29 12:08:49 -0500 2013
+Served asset /Person.css - 200 OK (2ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at Tue Oct 29 12:08:49 -0500 2013
+Served asset /foundation_and_overrides.css - 200 OK (12ms)
+
+
+Started GET "/assets/formtastic_ie6.css?body=1" for 127.0.0.1 at Tue Oct 29 12:08:49 -0500 2013
+Served asset /formtastic_ie6.css - 200 OK (2ms)
+
+
+Started GET "/assets/formtastic_ie7.css?body=1" for 127.0.0.1 at Tue Oct 29 12:08:49 -0500 2013
+Served asset /formtastic_ie7.css - 200 OK (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:49 -0500 2013
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:49 -0500 2013
+Served asset /foundation/foundation.js - 200 OK (7ms)
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:49 -0500 2013
+Served asset /foundation/foundation.alerts.js - 200 OK (11ms)
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:49 -0500 2013
+Served asset /foundation/foundation.cookie.js - 200 OK (4ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:50 -0500 2013
+Served asset /foundation/foundation.clearing.js - 200 OK (4ms)
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:50 -0500 2013
+Served asset /foundation/foundation.forms.js - 200 OK (4ms)
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:50 -0500 2013
+Served asset /foundation/foundation.dropdown.js - 200 OK (4ms)
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:50 -0500 2013
+Served asset /foundation/foundation.joyride.js - 200 OK (8ms)
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:50 -0500 2013
+Served asset /foundation/foundation.magellan.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:50 -0500 2013
+Served asset /foundation/foundation.reveal.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:50 -0500 2013
+Served asset /foundation/foundation.orbit.js - 200 OK (4ms)
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:50 -0500 2013
+Served asset /foundation/foundation.section.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:50 -0500 2013
+Served asset /foundation/foundation.tooltips.js - 200 OK (4ms)
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:50 -0500 2013
+Served asset /foundation/foundation.topbar.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:50 -0500 2013
+Served asset /foundation/foundation.interchange.js - 200 OK (4ms)
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:50 -0500 2013
+Served asset /foundation/foundation.placeholder.js - 200 OK (5ms)
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:50 -0500 2013
+Served asset /foundation/foundation.abide.js - 200 OK (4ms)
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:50 -0500 2013
+Served asset /foundation/index.js - 200 OK (26ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:50 -0500 2013
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:50 -0500 2013
+Served asset /static_pages.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 29 12:08:50 -0500 2013
+Served asset /application.js - 200 OK (107ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (56.7ms)
+Completed 200 OK in 79ms (Views: 78.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/person.css" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /person.css - 404 Not Found (78ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/person.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /foundation_and_overrides.css - 200 OK (0ms)
+
+
+Started GET "/assets/Person.css?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /Person.css - 200 OK (0ms)
+
+
+Started GET "/assets/formtastic_ie6.css?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /formtastic_ie6.css - 200 OK (0ms)
+
+
+Started GET "/assets/formtastic.css?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /formtastic.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/formtastic_ie7.css?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /formtastic_ie7.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.cookie.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /foundation/foundation.cookie.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /foundation/foundation.clearing.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.alerts.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /foundation/foundation.alerts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /foundation/foundation.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /foundation/foundation.magellan.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /foundation/foundation.dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /foundation/foundation.joyride.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.forms.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /foundation/foundation.forms.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /foundation/foundation.orbit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /foundation/foundation.reveal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.section.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /foundation/foundation.section.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.tooltips.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /foundation/foundation.tooltips.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /foundation/foundation.topbar.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/foundation/foundation.placeholder.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /foundation/foundation.placeholder.js - 200 OK (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /home.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/index.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /foundation/index.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /foundation/foundation.abide.js - 200 OK (0ms)
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /foundation/foundation.interchange.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 29 12:12:02 -0500 2013
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:25:16 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (122.6ms)
+Compiled foundation_and_overrides.css  (9403ms)  (pid 66949)
+Compiled application.css  (168ms)  (pid 66949)
+Completed 200 OK in 9917ms (Views: 9916.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/person.css" for 127.0.0.1 at Tue Oct 29 12:25:26 -0500 2013
+Served asset /person.css - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/person.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:25:45 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (87.6ms)
+Completed 200 OK in 110ms (Views: 109.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/person.css" for 127.0.0.1 at Tue Oct 29 12:25:45 -0500 2013
+Served asset /person.css - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/person.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:25:52 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (76.7ms)
+Completed 200 OK in 99ms (Views: 99.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/person.css" for 127.0.0.1 at Tue Oct 29 12:25:53 -0500 2013
+Served asset /person.css - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/person.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:26:19 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (179.0ms)
+Completed 200 OK in 457ms (Views: 419.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/person.css" for 127.0.0.1 at Tue Oct 29 12:26:19 -0500 2013
+Served asset /person.css - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/person.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (1.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to People (20131015171629)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "People" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(255), "last_name" varchar(255), "middle_init" varchar(255), "description" varchar(255), "date_of_birth" date, "gender" varchar(255), "grade_entering" varchar(255), "phone_number" varchar(255), "emerg_phone_number" varchar(255), "parent_email" varchar(255), "photo_consent" varchar(255), "bus_id" varchar(255), "ethnicity" varchar(255), "street_name" varchar(255), "city" varchar(255), "state" varchar(255), "zipcode" varchar(255), "guardian1" varchar(255), "guardian2" varchar(255), "reg_date" date, "school" varchar(255), "physical_on_file" varchar(255), "physical_date" varchar(255), "physical_time" varchar(255), "physical_status" varchar(255), "comments" text) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20131015171629')[0m
+  [1m[35m (11.8ms)[0m  commit transaction
+  [1m[36m (0.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:27:01 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (157.6ms)
+Completed 200 OK in 365ms (Views: 341.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/person.css" for 127.0.0.1 at Tue Oct 29 12:27:01 -0500 2013
+Served asset /person.css - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/person.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:27:28 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (128.8ms)
+Compiled foundation_and_overrides.css  (9238ms)  (pid 67041)
+Compiled application.css  (4ms)  (pid 67041)
+Completed 200 OK in 9640ms (Views: 9639.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/person.css" for 127.0.0.1 at Tue Oct 29 12:27:38 -0500 2013
+Served asset /person.css - 404 Not Found (31ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/person.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:29:51 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (200.1ms)
+Compiled foundation_and_overrides.css  (9215ms)  (pid 67041)
+Compiled application.css  (4ms)  (pid 67041)
+Completed 200 OK in 9725ms (Views: 9725.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/person.css" for 127.0.0.1 at Tue Oct 29 12:30:01 -0500 2013
+Served asset /person.css - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/person.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:32:27 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (139.9ms)
+Completed 200 OK in 162ms (Views: 161.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Oct 29 12:32:27 -0500 2013
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/person.css" for 127.0.0.1 at Tue Oct 29 12:32:27 -0500 2013
+Served asset /person.css - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/person.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:32:38 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (142.2ms)
+Completed 200 OK in 163ms (Views: 163.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/person.css" for 127.0.0.1 at Tue Oct 29 12:32:38 -0500 2013
+Served asset /person.css - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/person.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:33:07 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (146.0ms)
+Completed 200 OK in 168ms (Views: 167.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/person.css" for 127.0.0.1 at Tue Oct 29 12:33:07 -0500 2013
+Served asset /person.css - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/person.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:37:38 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (64.3ms)
+Compiled foundation_and_overrides.css  (9282ms)  (pid 67041)
+Compiled Person.css  (27ms)  (pid 67041)
+Compiled application.css  (4ms)  (pid 67041)
+Completed 200 OK in 9804ms (Views: 9803.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/person.css" for 127.0.0.1 at Tue Oct 29 12:37:48 -0500 2013
+Served asset /person.css - 404 Not Found (75ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/person.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:38:30 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (63.7ms)
+Compiled foundation_and_overrides.css  (8974ms)  (pid 67041)
+Compiled application.css  (4ms)  (pid 67041)
+Completed 200 OK in 9345ms (Views: 9344.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/person.css" for 127.0.0.1 at Tue Oct 29 12:38:39 -0500 2013
+Served asset /person.css - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/person.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:39:18 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (61.4ms)
+Compiled foundation_and_overrides.css  (8614ms)  (pid 67041)
+Compiled application.css  (4ms)  (pid 67041)
+Completed 200 OK in 9029ms (Views: 9028.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/person.css" for 127.0.0.1 at Tue Oct 29 12:39:27 -0500 2013
+Served asset /person.css - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/person.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (1.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (1.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to People (20131015171629)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "People" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(255), "last_name" varchar(255), "middle_init" varchar(255), "description" varchar(255), "date_of_birth" date, "gender" varchar(255), "grade_entering" varchar(255), "phone_number" varchar(255), "emerg_phone_number" varchar(255), "parent_email" varchar(255), "photo_consent" varchar(255), "bus_id" varchar(255), "ethnicity" varchar(255), "street_name" varchar(255), "city" varchar(255), "state" varchar(255), "zipcode" varchar(255), "guardian1" varchar(255), "guardian2" varchar(255), "reg_date" date, "school" varchar(255), "physical_on_file" varchar(255), "physical_date" varchar(255), "physical_time" varchar(255), "physical_status" varchar(255), "comments" text) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20131015171629')[0m
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:42:08 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (158.6ms)
+Completed 200 OK in 377ms (Views: 350.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/person.css" for 127.0.0.1 at Tue Oct 29 12:42:08 -0500 2013
+Served asset /person.css - 404 Not Found (9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/person.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 29 12:43:27 -0500 2013
+Processing by PersonController#index as HTML
+  Rendered person/index.html.erb within layouts/application (124.2ms)
+Completed 200 OK in 149ms (Views: 145.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/person.css" for 127.0.0.1 at Tue Oct 29 12:43:27 -0500 2013
+Served asset /person.css - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/person.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/hetzerbr/.rvm/rubies/ruby-1.8.7-p371/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.5) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.5) lib/rack/server.rb:268:in `start'
+  railties (3.2.11) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.11) lib/rails/commands.rb:55
+  railties (3.2.11) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.11) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /Users/hetzerbr/.rvm/gems/ruby-1.8.7-p371/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
