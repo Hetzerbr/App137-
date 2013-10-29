@@ -2,6 +2,7 @@ WyspApp::Application.routes.draw do
   resources :people
 
   match '/index', :to => 'person#index'
+  match '/bus_route', :to => 'bus_route#bus_route'
    
    root :to => 'person#index'
    
