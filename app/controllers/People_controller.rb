@@ -2,6 +2,7 @@ class PeopleController < ApplicationController
   def index
     @person = Person.new
     @buses = Bus.all
+    @schools = School.all
   end
 
   def new
